@@ -39,7 +39,7 @@ def parse_args():
     parser.add_argument("--num_workers", type=int, default=2)
     parser.add_argument("--normalize_dataset", action="store_true")
     parser.add_argument("--model", choices=["PreActResNet18", "ResNet18", "WideResNet28", "SENet18"], default="PreActResNet18")
-    parser.add_argument("--attack", choices=["SORA", "FGSM", "FGM", "FGSM-RS", "FGM-RS", "GradAlign", "NuAT", "NFGSM", "AAER", "ZeroGrad", "MultiGrad", "ATAS", "ELLE", "TRADES", "PGD", "PGD2", "Benign"], required=True)
+    parser.add_argument("--attack", choices=["SORA", "FGSM", "FGSM-RS", "GradAlign", "NuAT", "NFGSM", "AAER", "ZeroGrad", "MultiGrad", "ATAS", "ELLE", "TRADES", "PGD", "PGD2", "Benign"], required=True)
     parser.add_argument("--attack_norm", choices=["Linf", "L2"], default="Linf", help="Attack norm")
     parser.add_argument("--epsilon", type=float, default=8, help="Epsilon ball * 255")
     parser.add_argument("--epochs", type=int, default=30)
