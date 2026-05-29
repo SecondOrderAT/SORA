@@ -1,10 +1,10 @@
 <div align="center">   
 
-# SORA: Free Second Order Attacks in Fast Adversarial Training
+# SORA: Free Second-Order Attacks in Fast Adversarial Training
 
 </div>
 
-Official implementation of SORA: Free Second Order Attacks in Fast Adversarial Training (ICML 2026).
+Official implementation of SORA: Free Second-Order Attacks in Fast Adversarial Training (ICML 2026).
 
 **Code maintainers:**  
 [Mazdak Teymourian](https://github.com/MazMazTey) · [Ramtin Moslemi](https://github.com/RamtinMoslemi)
@@ -18,7 +18,7 @@ We address this failure mode with two contributions.
 generalization across different architectures and datasets.  
 2. We propose **PertAlign** (Perturbation Alignment), a theoretically grounded, computationally negligible metric that predicts CO onset by measuring gradient alignment across attack stages.  
 
-Leveraging these insights, we introduce **SORA**, an adaptive step-size adversarial training method that dynamically adjusts perturbations based on loss-surface geometry. SORA consistently prevents CO, achieves state-of-the-art robustness and clean accuracy, and generalizes across datasets and architectures using a single fixed set of hyperparameters.  
+Leveraging these insights, we introduce **SORA**, an adaptive step-size adversarial training method that dynamically adjusts perturbations based on loss surface geometry. SORA consistently prevents CO, achieves state-of-the-art robustness and clean accuracy, and generalizes across datasets and architectures using a single fixed set of hyperparameters.  
 
 Extensive experiments on diverse datasets and architectures show that SORA matches or surpasses the robustness of prior methods while delivering higher clean accuracy and superior efficiency.
 
@@ -55,7 +55,7 @@ If you use this code in your own work, please cite our paper:
 ```
 @inproceedings{
     teymourian2026sora,
-    title={{SORA}: Free Second Order Attacks in Fast Adversarial Training},
+    title={{SORA}: Free Second-Order Attacks in Fast Adversarial Training},
     author={Teymourian, Mazdak and Moslemi, Ramtin and Rahmani, Farzan and Rohban, Mohammad Hossein},
     booktitle={Proceedings of the 43rd International Conference on Machine Learning},
     publisher={PMLR},
